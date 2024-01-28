@@ -1,5 +1,23 @@
-# OKX 自動交易
+# Trading Bot Prediction and Strategy
+## Abstract
+1. This project is to build a trading bot example with **OKX api**, at the same time, I do analytics and preditions to a cryptocurrency and optimize our strategy.
+2. Major work is to compare the profit between **long-term** model, **short-term** model, and our **own strategy**.
+3. Model including Autoregressive Integrated Moving Average model(ARIMA), Vector AutoRegressive(VAR), and Long Short-Term Memory(LSTM).
+4. For model strategy, the predicted model will embed into the trading bot and give you best strategy.
+5. Keep update...
 
-參考: 
+## Ref
+**OKX api**
 - https://github.com/pyted
 - https://www.okx.com/docs-v5/en/?python#order-book-trading-market-data-get-candlesticks
+
+**ARIMA**
+Chinese:
+- https://adaptable-haze-butterfly-551.medium.com/arima%E6%99%82%E9%96%93%E5%BA%8F%E5%88%97%E6%A8%A1%E5%9E%8Bpython%E6%87%89%E7%94%A8-%E9%8A%85%E5%83%B9%E6%A0%BC%E9%A0%90%E6%B8%AC-%E4%B8%80-4f91693e3ec6
+- https://medium.com/@rofLin/%E8%A7%A3%E6%9E%90%E6%99%82%E9%96%93%E5%BA%8F%E5%88%97%E7%9A%84%E9%80%B1%E6%9C%9F%E6%80%A7%E8%AE%8A%E5%8B%95-seasonal-decomposition-8ced646fc26b
+
+
+File:
+Useful_function: There are some useful function that will be use in **bot** file.
+Bot: This is the main trading bot file.
+ML_trading: Including pre-processing, analytics and prediction.
