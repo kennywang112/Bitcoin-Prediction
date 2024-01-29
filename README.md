@@ -20,4 +20,5 @@ Chinese:
 File:
 Useful_function: There are some useful function that will be use in **bot** file.
 Bot: This is the main trading bot file.
-ML_trading: Including pre-processing, analytics and prediction.
+Arima: This is for basic ARIMA model preparation, learning concept from this file and build **Arima_bot**.
+Arima_bot: A trading bot combine with the knowledge of ARIMA result, then judge whether you can buy at this point.
