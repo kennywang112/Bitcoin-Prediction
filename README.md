@@ -2,7 +2,7 @@
 ## Abstract
 1. This project is to build a trading bot example with **OKX api**, at the same time, I do analytics and preditions to a cryptocurrency and optimize our strategy.
 2. Major work is to compare the profit between **long-term** model, **short-term** model, and our **own strategy**.
-3. Model including Autoregressive Integrated Moving Average model(ARIMA), Vector AutoRegressive(VAR), and Long Short-Term Memory(LSTM).
+3. Model including Autoregressive Integrated Moving Average model(ARIMA), Prophet, Vector AutoRegressive(VAR), and Long Short-Term Memory(LSTM).
 4. For model strategy, the predicted model will embed into the trading bot and give you best strategy.
 5. Keep update...
 
