@@ -21,8 +21,9 @@
 
 **Prophet**
 
-- Document : 
-https://github.com/facebook/prophet
+- Document : https://github.com/facebook/prophet
+- Code : https://facebook.github.io/prophet/docs/quick_start.html#python-api
+- Diagnostics : https://facebook.github.io/prophet/docs/diagnostics.html
 
 **Vector Autoregression**
 
